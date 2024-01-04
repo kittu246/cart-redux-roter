@@ -22,7 +22,7 @@ const HomeLayout = () => {
   return (
     <div className='homeLayout'>
         <Navbar/>
-        {isLoading ? <div> Loading ... </div> :<Outlet/>}
+        {isLoading ? <div style={{fontSize:'30px',display:"flex",alignItems:'center', padding:'2rem',justifyContent:'center'}}> Loading ... </div> :<Outlet/>}
      
 
     </div>
